@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+}
+.logo{
+    background-color: #2e219a;
+    text-align: center;
+}
+.logo img {
+    width: 100px;
+    padding: 20px 0;
+}
+
+.header-menu{
+    background-color: #ff0000;
+    padding: 20px 0;
+}
+.header-menu ul{
+    text-align: center;
+}
+.header-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+.header-menu ul li:last-child a{
+    border-right: none;
+}
+.header-menu ul li a:hover{
+    color: yellow;
+    transition: .4s;
+}
+
+/* Banner css */
+.banner {
+    background: url(https://i.ibb.co/6mM2Y3P/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 110px 0;
+}
+.banner-text{
+    width: 1000px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+.banner-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.banner-text p {
+    font-size: 18px;
+    line-height: 32px;
+}
+.banner-text a {
+    font-size: 20px;
+    color: #fff;
+    background-color: #008000;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: .4s;
+}
+.banner-text a:hover{
+    background-color: #025c02;
+    color: red;
+}
+
+/* banner bottom css */
+.banner-bottom{
+    background: url(..//image/colorize.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.banner-b-text{
+    text-align: center;
+}
+.banner-b-text h1{
+    background-color: #008000;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.banner-b-text p {
+    background-color: #ffff00;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.banner-b-text a {
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: .4s;
+}
+.banner-b-text a:hover{
+    background-color: #008000;
+    color: red;
+}
+
+/* About css */
+.about{
+    background-color: #4ab75c;
+    padding: 50px 0;
+}
+.about h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-content {
+    width: 1000px;
+    margin: auto;
+}
+.about-content img {
+    width: 120px;
+    height: 120px;
+    margin-top: 100px;
+    margin-bottom: -28px;
+}
+.about-text {
+    width: 564px;
+    margin-left: 280px;
+    margin-top: -76px;
+}
+
+/* about bottom */
+.about-bottom {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+.about-b-text {
+    width: 594px;
+}
+.about-bottom img {
+    width: 120px;
+    height: 120px;
+    margin-left: 112%;
+    margin-top: -70px;
+}
+
+/* Footer css */
+.footer {
+    background-color: #2c1a8e;
+    padding: 20px 0;
+}
+.footer-socail-menu{
+    text-align: center;
+}
+.footer-socail-menu li {
+    display: inline-block;
+}
+.footer-socail-menu li a {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer-socail-menu li a:hover{}
